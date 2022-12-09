@@ -1,6 +1,8 @@
 #########################
 
-O projeto está configurado em um banco de dados PostgreSQL na aws pronto para ser usado sem precisar de alterações no código da API, porém se for necessário fazer alterações segue à baixo uma simples explicação:
+BANCO DE DADOS:
+
+O projeto está configurado em um banco de dados PostgreSQL na AWS pronto para ser usado sem precisar de alterações no código da API, porém se for necessário fazer alterações segue à baixo uma simples documentação:
 
 O projeto conta com dois scripts de banco um Oracle(SQL92) e um Postgres(SQL99), o script Oracle como um extra conta com o create table 
 e a adição de todas as constraints necessárias, o script em Postgres conta com o comando de criar database, criar schema 
@@ -13,6 +15,8 @@ de schema da annotation @Entity.
 #########################
 
 #########################
+
+BACK-END:
 
 Para iniciar a api, primeiro navegue para API com:
 cd api
@@ -42,6 +46,8 @@ npm run start:debugLocal (Para subir o servidor com o ambiente de debug.)
 #########################
 
 #########################
+
+FRONT-END:
 
 Para iniciar o projeto web, navegue até a pasta web com: 
 cd web
