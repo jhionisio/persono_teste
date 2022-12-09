@@ -1,5 +1,7 @@
 #########################
 
+O projeto está configurado em um banco de dados PostgreSQL na aws pronto para ser usado sem precisar de alterações no código da API, porém se for necessário fazer alterações segue à baixo uma simples explicação:
+
 O projeto conta com dois scripts de banco um Oracle(SQL92) e um Postgres(SQL99), o script Oracle como um extra conta com o create table 
 e a adição de todas as constraints necessárias, o script em Postgres conta com o comando de criar database, criar schema 
 e o create table com todas as contraints necessárias para o projeto, lembrando que os comandos
