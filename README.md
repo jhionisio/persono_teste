@@ -49,8 +49,8 @@ npm run start:debugLocal (Para subir o servidor com o ambiente de debug.)
 
 FRONT-END:
 
-Para iniciar o projeto web, navegue até a pasta web com: 
-cd web
+Para iniciar o projeto web, navegue até a pasta front com: 
+cd front
 
 Instale as dependências com:
 npm i
